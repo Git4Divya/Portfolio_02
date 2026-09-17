@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel="icon" href="logo.jpg" style="border-radius: 50%";>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- header design -->
+    <header>
+    <a href="#" class="logo">Who <span>I</span>'m.</a>
+
+    <ul class="navlist">
+        <li><a href= "#home" class="active">Home</a></li>
+        <li><a href= "#about">About Me</a></li>
+        <li><a href= "#services">Services</a></li>
+        <li><a href= "#portfolio">Projects</a></li>
+        <li><a href= "#contact">Contact Me</a></li>
+    </ul>
+    <div class="menu-btn" id="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    </header>
+    <!-- home section  design -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello</span>
+                <span class="two">I'm</span>
+            </div>
+            <h1>Divya</h1>
+            <h3>Quality <span id="typing"></span></h3>
+        </div>
+    </section>
+
+    <!-- about section  design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src= "photo1.jpg" height="520px" width="470px">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>SMT Quality Engineer</h4>
+            <p>Dedicated and detail-oriented Quality Engineer specializing in SMT and through-hole manufacturing. 
+                Skilled in quality assurance, process control, defect analysis, audits, and continuous improvement. 
+                Seeking to contribute to high-quality, efficient, and reliable manufacturing operations.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>QUALITY</span><br>Quality Control &amp; Auditing</li> 
+                        <li><span>SMT</span><br>SMT Operations &amp; Process Control</li> 
+                        <li><span>CORE TOOLS</span><br>APQP, PPAP, PFMEA, MSA, SPC &amp; 8D</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><Span>2025 Nov - Present</Span><br>Quality Engineer - Kaynes Electronics Manufacturing Private Limited</li>
+                        <li><Span>2023 Dec - Nov 2025</Span><br>Junior Engineer - Axiom Energy Conversion Ltd.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><Span>2023 - B.tech </Span><br>JB Institute of Engineering & Technology - EEE <br>
+                            CGPA: 8.7</li>
+                        <li><Span>2019 - Inter</Span><br>Narayana Junior College<br>
+                            Percentage : 8.9</li>
+                        <li><Span>2017 - SSC</Span><br>Blue Blooms Grammar School<br>
+                            CGPA: 8.3</li>
+                    </ul>
+                </div>
+        </div>
+    </section>
+
+    <!-- service section  design -->
+    <section class="services" id="services">
+        <div class="main-text">
+            <p>What I am Expert In</p>
+            <h2><span>My</span>Services</h2>
+        </div>
+        <div class="services-content">
+            <div class="box">
+                <div class="s-icons">
+                    <i class="fa-solid fa-laptop fa-fade"></i>
+                </div>
+                <h3>Technical Skills</h3>
+                <p><pre>
+• SMT Operations | PCB Assembly
+• QC | 8D & RCA | KPI
+• FMEA | PPAP | APQP SPC | MSA 
+• 5S & Kaizen
+• ESD | IPC Standards
+• MS Office</pre></p>
+            </div>
+            <div class="box">
+                <div class="s-icons">
+                    <i class="fa-solid fa-certificate fa-fade"></i>
+                </div>
+                <h3>Certificates</h3>
+                <p>
+<pre>
+• Certificate Of Appreciation
+  from Quality Dept.
+• IPC-A-610 | ISO 9001 | SIX SIGMA 
+• Web Mobile Applications.
+
+                </pre></p>
+            </div>
+            <div class="box">
+                <div class="s-icons">
+                    <i class="fa-solid fa-pen-to-square fa-fade"></i>
+                </div>
+                <h3>Skills and Abilities</h3>
+                <p><pre>
+    • Communication skills.
+    • Time Management
+    • Team Leadership 
+    • Quick Learning | Problem Solving
+    • Self-motivated & Flexible.
+    • Presentations</pre></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section  design -->
+
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <p>Projects</p>
+            <h2><span>Latest</span>Projects</h2>
+        </div>
+        <div class="portfolio-content">
+            <div class="row">
+                <img src="portfolioimg.jpg" alt="image" height="300px" width="80%">
+                <div class="layer">
+                    <h5>Portfolio</h5>
+                    <p> Created a portfolio using HTML, CSS, JAVASCRIPT</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://i.pinimg.com/originals/1c/db/08/1cdb087b534bb948c0ba762ecb0145c6.gif" alt="image" height="300px" width="80%">
+                <div class="layer">
+                    <h5>Electric Vehicle</h5>
+                    <p>Energy Regeneration System for Electric Vehicles
+                        Using DC-DC Converter with Super-capacitors<br><b> - Acadamic Project</b></p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            
+            <div class="row">
+                <img src="https://www.itsolutionstuff.com/upload/laravel-8-inertia-crud-app.gif" alt="image" height="300px" width="80%">
+                <div class="layer">
+                    <h5>Student Information</h5>
+                    <p>Student Database Managment Using PHP CRUD Operations HTML, CSS & JavaScript</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            
+            
+            
+        </div>
+    </section>
+    <!-- portfolio section  design -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact<span>Me!</span></h2>
+            <h4>If You Want to Hire me, Contact me by Submitting the form.</h4>
+            <div class="list">
+                <li><a href="#">+91 8500658023</a></li>
+                <li><a href="#">divyamekala545@gmail.com</a></li>
+            </div>
+
+            <div class="contact-icons">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-codepen"></i></a>
+                <a href="https://github.com/Git4Divya"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="button">
+                <a href="./Resume Divya.pdf" download class="btn">Download Resume</a>
+            </div>
+        </div>
+        
+            <div action=" " class="contact-form">
+                <form action="https://formspree.io/f/mldekeqq" method="POST">
+              <input type="name" name="name" placeholder=" Your Name">
+              <input type="number" name="number" placeholder="Number">
+              <input type="email" name="email" placeholder="youremail@gmail.com">
+              <textarea name="message" placeholder="Feedback"></textarea>
+              <button type="submit" class="submit">Send</button>
+              </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- End section  design -->
+    <section class="end">
+        <div class="last-text">
+            <p>Copyright © 2023 by Divya All Rights are Reserved.</p>
+        </div>
+        <div class="top">
+            <a href="#home"><i class="fa-solid fa-chevron-up"></i></a>
+        </div>
+    </section>
+    <script src = "script.js"></script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+          var tabcontents = document.getElementsByClassName("tab-contents");
+          function opentab(tabname){
+            for(tablink of tablinks){
+              tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+              tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+          }       
+   
+    </script>
+
+<script>
+const text = "Engineer.";
+const typing = document.getElementById("typing");
+let i = 0;
+
+typing.classList.add("typing");
+
+function typeText() {
+    if (i < text.length) {
+        typing.textContent += text.charAt(i);
+        i++;
+        setTimeout(typeText, 250);
+    } else {
+        typing.classList.remove("typing");
+        typing.style.borderRight = "none";
+    }
+}
+
+typeText();
+</script>
+
+    
+</body>
+</html>
